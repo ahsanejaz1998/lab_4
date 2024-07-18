@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model and scaler
-model = joblib.load('fish_species_model.pkl')
+model = joblib.load('/home/ahsanejaz1227/lab_4/fish_species_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 @app.route('/')
